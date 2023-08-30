@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("nhập sô a");
+        let b = +prompt("nhập số b");
+        let c = +prompt("nhập số c");
+        function timSoBeNhat(x, y, z) {
+            let min = 0;
+            if (x<y) {
+                min = x;
+            }else{
+                min = y;
+            }
+            if (min>z) {
+                min = z;
+            }
+            console.log(`số bé nhất là ${min}`);
+        }
+        timSoBeNhat(a, b, c)
+    </script>
+</body>
+</html>
